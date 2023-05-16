@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf8ab25f-6af2-409a-9289-653ffe82a656" name="Changes" comment="Establishing the connection">
-      <change afterPath="$PROJECT_DIR$/src/jdbcDemo/AltConnection.java" afterDir="false" />
+    <list default="true" id="bf8ab25f-6af2-409a-9289-653ffe82a656" name="Changes" comment="Establishing the AltConnection">
+      <change afterPath="$PROJECT_DIR$/src/jdbcDemo/AltConnection2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684233915314</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Establishing the AltConnection">
+      <created>1684236429963</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684236429963</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Establishing the AltConnection">
+      <created>1684236999574</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684236999574</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +153,7 @@
     <MESSAGE value="TestUpdate Code Commit" />
     <MESSAGE value="TestUpdate2 Code Commit" />
     <MESSAGE value="Establishing the connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Establishing the connection" />
+    <MESSAGE value="Establishing the AltConnection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Establishing the AltConnection" />
   </component>
 </project>
