@@ -21,6 +21,7 @@ public class AltConnection2 {
             properties.setProperty("password", "rahul");
 
             Connection con = DriverManager.getConnection(url, properties);
+
             System.out.println("Connected");
 
             con.close();
