@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf8ab25f-6af2-409a-9289-653ffe82a656" name="Changes" comment="TestUpdate Code Commit">
-      <change afterPath="$PROJECT_DIR$/src/CrudOps/TestUpdate2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bf8ab25f-6af2-409a-9289-653ffe82a656" name="Changes" comment="TestUpdate2 Code Commit">
+      <change afterPath="$PROJECT_DIR$/src/jdbcDemo/TestConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684232308102</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="TestUpdate2 Code Commit">
+      <created>1684232980982</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684232980982</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +122,7 @@
     <MESSAGE value="Code Commit" />
     <MESSAGE value="Update Code Commit" />
     <MESSAGE value="TestUpdate Code Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestUpdate Code Commit" />
+    <MESSAGE value="TestUpdate2 Code Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestUpdate2 Code Commit" />
   </component>
 </project>
