@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf8ab25f-6af2-409a-9289-653ffe82a656" name="Changes" comment="Establishing the AltConnection2">
-      <change afterPath="$PROJECT_DIR$/src/jdbcDemo/AltConnection3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbcDemo/mydbinfo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicCrudOps/DataBaseOperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684237413172</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Establishing the AltConnection2">
+      <created>1684238329593</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1684238329593</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
