@@ -3,6 +3,7 @@ package CrudOps;
 import java.sql.*;
 
 public class TestSelect {
+    /* In this file, to execute query we use one of the method from Statement(I) that is execute().*/
     public static void main(String[] args) {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
