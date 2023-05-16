@@ -17,7 +17,7 @@ public class TestUpdate {
             Connection con = DriverManager.getConnection(url, user, pass);
             Statement stmt = con.createStatement();
 
-            String query = "UPDATE student SET name='Abhinandan' WHERE id=131";
+            String query = "UPDATE student SET email='abhi_nand@gmail.com' WHERE id=131";
 
             boolean execute = stmt.execute(query);
             System.out.println(execute);
