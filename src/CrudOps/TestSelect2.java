@@ -27,6 +27,8 @@ public class TestSelect2 {
                 System.out.println("--------------------------");
             }
 
+            con.close();
+
         } catch (ClassNotFoundException | SQLException e) {
             throw new RuntimeException(e);
         }
