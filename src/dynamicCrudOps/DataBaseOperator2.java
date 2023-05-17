@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.sql.*;
 import java.util.Properties;
 
-public class DataBaseOperator {
+public class DataBaseOperator2 {
     public static void main(String[] args) {
         System.out.println("Enter the query");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -24,27 +24,24 @@ public class DataBaseOperator {
             Connection con = DriverManager.getConnection(url, properties);
             Statement statement = con.createStatement();
 
-            boolean execute = statement.execute(query);
+            boolean res = statement.execute(query);
 
-            if (execute){
+            if (res) {
                 ResultSet set = statement.getResultSet();
+                ResultSetMetaData data = set.getMetaData();
+                int count = data.getColumnCount();
 
                 while (set.next()){
-                    System.out.println(set.getInt(1));
-                    System.out.println(set.getString(2));
-                    System.out.println(set.getString(3));
-                    System.out.println(set.getString(4));
-                    System.out.println("--------------------------");
+                    for (int i = 1; i<=count; i++){
+                        System.out.println(set.getObject(i));
+                    }
                 }
-
             }
-            else System.out.println("Table Updated Successfully");
 
-            con.close();
+            else System.out.println("Table Updated Successfully");
 
         } catch (ClassNotFoundException | IOException | SQLException e) {
             throw new RuntimeException(e);
         }
-
     }
 }

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf8ab25f-6af2-409a-9289-653ffe82a656" name="Changes" comment="Establishing the AltConnection2">
-      <change afterPath="$PROJECT_DIR$/src/dynamicCrudOps/DataBaseOperator.java" afterDir="false" />
+    <list default="true" id="bf8ab25f-6af2-409a-9289-653ffe82a656" name="Changes" comment="first code in this package">
+      <change afterPath="$PROJECT_DIR$/src/dynamicCrudOps/DataBaseOperator2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicCrudOps/DatabaseTestInsert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamicCrudOps/DataBaseOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicCrudOps/DataBaseOperator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,17 +31,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/jj/JDBCFirst/JAR Files/mysql-connector-java-8.0.30.jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/jj/JDBCFirst/JAR Files/mysql-connector-java-8.0.30.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -154,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684238329593</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="first code in this package">
+      <created>1684240214876</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1684240214876</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +185,7 @@
     <MESSAGE value="Establishing the connection" />
     <MESSAGE value="Establishing the AltConnection" />
     <MESSAGE value="Establishing the AltConnection2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Establishing the AltConnection2" />
+    <MESSAGE value="first code in this package" />
+    <option name="LAST_COMMIT_MESSAGE" value="first code in this package" />
   </component>
 </project>
