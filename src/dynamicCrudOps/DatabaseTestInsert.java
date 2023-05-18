@@ -20,9 +20,9 @@ public class DatabaseTestInsert {
             String query = "INSERT INTO student VALUES(?,?,?,?)";
             PreparedStatement statement = con.prepareStatement(query);
 
-            statement.setInt(1, 23);
-            statement.setString(2, "Sita");
-            statement.setString(3, "sita@gmail.com");
+            statement.setInt(1, 33);
+            statement.setString(2, "SitaRam");
+            statement.setString(3, "sr@gmail.com");
             statement.setString(4, "Python");
 
             int res = statement.executeUpdate();
